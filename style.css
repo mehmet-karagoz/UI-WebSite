@@ -14,7 +14,8 @@ body {
     ),
     radial-gradient(at 82% 65%, hsl(218, 17%, 22%) 0, transparent 55%);
 }
-#firstExplore {
+#firstExplore,
+#secondExplore {
   margin: 5em;
   padding: 80px 70px;
   box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.5);
@@ -24,7 +25,8 @@ body {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.125);
 }
-#firstExplore h3 {
+#firstExplore h3,
+#secondExplore h3 {
   font-family: "Archive", sans-serif;
 }
 p {
