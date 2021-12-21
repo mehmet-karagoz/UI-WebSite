@@ -1,0 +1,61 @@
+@import url(//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive);
+@font-face {
+  font-family: "Archive";
+  src: url("//db.onlinewebfonts.com/t/08aae9f020949051ff8331be100607cb.ttf")
+    format("truetype");
+}
+
+body {
+  background-color: #b8b8bb;
+  background-image: radial-gradient(
+      at 47% 33%,
+      hsl(180, 0%, 100%) 0,
+      transparent 59%
+    ),
+    radial-gradient(at 82% 65%, hsl(218, 17%, 22%) 0, transparent 55%);
+}
+#firstExplore,
+#secondExplore {
+  margin: 5em;
+  padding: 80px 70px;
+  box-shadow: 5px 5px 90px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(25px) saturate(180%);
+  -webkit-backdrop-filter: blur(25px) saturate(180%);
+  background-color: rgba(252, 101, 31, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+#firstExplore h3,
+#secondExplore h3 {
+  font-family: "Archive", sans-serif;
+}
+p {
+  font-weight: bold;
+  font-size: 130%;
+  font-family: "Arvo", serif;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #232526 100%
+  );
+}
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
