@@ -12,6 +12,16 @@
   transform: translate(-50%, -50%);
 }
 
+footer {
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+}
+
 #firstExplore,
 #secondExplore {
   padding: 70px 50px;
