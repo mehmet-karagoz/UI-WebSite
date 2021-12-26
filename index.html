@@ -1,190 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HUMANEXT</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&Alegreya+Sans+SC:wght@300;700&family=Orbitron&family=Anton&family=Arvo:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="img/Logo.png" alt="HUMANEXT" width="200" />
-        </a>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HUMANEXT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@300&Alegreya+Sans+SC:wght@300;700&family=Orbitron&family=Anton&family=Arvo:wght@700&display=swap"
+    rel="stylesheet" />
+  <link href="//db.onlinewebfonts.com/c/08aae9f020949051ff8331be100607cb?family=Archive" rel="stylesheet"
+    type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
 
-        <form class="d-flex position-absolute start-50">
-          <input
-            class="form-control me-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item border-end">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item border-end">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item border-end">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.html">Login</a>
-            </li>
-          </ul>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/Logo.png" alt="HUMANEXT" />
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+        <div class="searhBar">
+          <form class="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+            <button class="btn btn-outline-light" type="submit">
+              Search
+            </button>
+          </form>
         </div>
-      </div>
-    </nav>
 
-    <div
-      id="homeCarousel"
-      class="carousel slide carousel-fade"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            src="img/FirstSlide.gif"
-            class="img-fluid rounded w-100"
-            height="700"
-            alt="..."
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5
-              style="
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item border-end">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item border-end">
+            <a class="nav-link" href="about.html">About Us</a>
+          </li>
+          <li class="nav-item border-end">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="homeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/FirstSlide.gif" class="img-fluid rounded w-100" height="700" alt="..." />
+        <div class="carousel-caption d-none d-md-block">
+          <h5 style="
                 font-family: 'Orbitron', sans-serif;
                 font-weight: bold;
                 font-size: 4vw;
                 text-shadow: 2px 2px 2px #0e0d0d;
                 color: #fc5f50;
-              "
-            >
-              WE MAKE YOUR LIFE EASIER
-            </h5>
-            <p
-              style="
+              ">
+            WE MAKE YOUR LIFE EASIER
+          </h5>
+          <p style="
                 font-family: 'Lato', sans-serif;
                 font-weight: bold;
                 font-size: larger;
-              "
-            >
+              ">
             We build the most advanced exoskeletons for you.
-            </p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="img/SecondSlide.jpg"
-            class="img-fluid rounded w-100"
-            height="700"
-            alt="..."
-          />
-        </div>
-        <div class="carousel-item">
-          <img
-            src="img/ThirdSlide.jpg"
-            class="img-fluid rounded w-100"
-            height="700"
-            alt="..."
-          />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#homeCarousel"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#homeCarousel"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-
-    <div id="firstExplore" class="container">
-      <h3 class="text-center" style="font-size: 3vw">Another Part</h3>
-      <br /><br />
-      <div class="row">
-        <div class="col-sm-5" style="padding: 0%">
-          <img src="img/FirstCard.gif" alt="" width="450" />
-        </div>
-        <div class="col-sm-6" style="padding-left: 5%">
-          <p>
-            If you have a leg injury, your treatment time can be cut in half thanks to our exoskeletons.
           </p>
-          <a class="btn btn-grad col-sm-6" href="explore.html" role="button"
-            >EXPLORE</a
-          >
         </div>
       </div>
+      <div class="carousel-item">
+        <img src="img/SecondSlide.jpg" class="img-fluid rounded w-100" height="700" alt="..." />
+      </div>
+      <div class="carousel-item">
+        <img src="img/ThirdSlide.jpg" class="img-fluid rounded w-100" height="700" alt="..." />
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-    <div id="secondExplore" class="container">
-      <h3 class="text-center" style="font-size: 3vw">Another Part</h3>
-      <br /><br />
-      <div class="row">
-        <div class="col-sm-6" style="padding-left: 5%">
-          <p>
-            Our exoskeletons allow you to live your life normally, even if you are half paralyzed.
-          </p>
-          <a class="btn btn-grad col-sm-6" href="explore.html" role="button"
-            >EXPLORE</a
-          >
+  <div id="firstExplore" class="">
+    <h3 class="text-center" style="font-size: 3vw">Another Part</h3>
+    <br /><br />
+    <div class="row">
+      <div id="imageCol" class="col-sm-5">
+        <img src="img/FirstCard.gif" alt="" width="450" />
+      </div>
+      <div id="textCol" class="col-sm-6">
+        <p>
+          If you have a leg injury, your treatment time can be cut in half
+          thanks to our exoskeletons. Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Consequuntur odio culpa impedit! Quibusdam quod
+          provident quisquam facere neque voluptatem, laudantium aliquam
+          incidunt atque, voluptas iste ipsum cumque ab eaque. Suscipit?
+        </p>
+        <a class="btn btn-grad mx-auto d-block" href="explore.html" role="button">EXPLORE</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="secondExplore" class="">
+    <h3 class="text-center" style="font-size: 3vw">Another Part</h3>
+    <br /><br />
+    <div class="row">
+      <div id="textCol" class="col-sm-6">
+        <p>
+          Our exoskeletons allow you to live your life normally, even if you
+          are half paralyzed.Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Consequuntur odio culpa impedit! Quibusdam quod
+          provident quisquam facere neque voluptatem, laudantium aliquam
+          incidunt atque, voluptas iste ipsum cumque ab eaque. Suscipit?
+        </p>
+        <a class="btn btn-grad mx-auto d-block" href="explore.html" role="button">EXPLORE</a>
+      </div>
+      <div id="imageCol" class="col-sm-5">
+        <img src="img/FirstCard.gif" alt="" width="450" />
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-dark text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+
+      <div class="row" style="height: 50%;">
+        <div class="col-md-4 text-center">
+          <p>Contact Us</p>
+          <p><span class="fas fa-map-marked-alt"> Antalya, TURKEY</span></p>
+          <p><span class="fas fa-phone-alt"> +90 543 212 6544</span></p>
+          <p><span class="fas fa-envelope"></span> humanext@gmail.com</p>
         </div>
-        <div class="col-sm-5" style="padding: 0%">
-          <img src="img/FirstCard.gif" alt="" width="450" />
+        <div class="col-md-4 text-center">
+          <p><img src="img/Logo2.png" alt="" width="200"></p>
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><em
+                class="fab fa-facebook"></em></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><em
+                class="fab fa-twitter"></em></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><em
+                class="fab fa-instagram"></em></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><em
+                class="fab fa-linkedin-in"></em></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <div class="col-md-4 text-center">
+          <p>PAGES</p>
+          <ul class="list-unstyled">
+            <li><a href="#!">About Us</a></li>
+            <li><a href="#!">Contact</a></li>
+            <li><a href="#!">Login</a></li>
+          </ul>
         </div>
       </div>
     </div>
-  </body>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="#home">Humanext.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+</body>
+
 </html>
