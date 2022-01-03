@@ -236,7 +236,7 @@ button2.submit {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(211, 95, 60, 0.829);
+  background-color: rgba(255, 60, 0, 0.5);
 }
 
 .cont.s--signup .imgLogin:before {
