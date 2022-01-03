@@ -462,6 +462,40 @@ footer a:hover {
   text-decoration: none;
 }
 
+.thumbnail {
+  margin: 2em 2em;
+  padding: 2em 2em;
+  background-color: rgba(252, 101, 31, 0.75);
+}
+.thumbnail h4 {
+  margin-top: 1em;
+  font-family: "Archive", sans-serif;
+}
+.btn-grad-product {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  display: block;
+  width: min-content;
+}
+.btn-grad-product {
+  background-image: linear-gradient(
+    to right,
+    #232526 0%,
+    #414345 51%,
+    #232526 100%
+  );
+}
+.btn-grad-product:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
 #firstExplore,
 #secondExplore {
   padding: 70px 50px;
