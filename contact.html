@@ -65,74 +65,39 @@
       </div>
     </div>
   </nav>
+  
+  <img src="img/Background.png" class="img-fluid rounded w-100" alt="..."/>
+  <h2>If you still can't find what you're looking for in our support resources, contact customer support directly.<h2></h2>
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
-  <div class="cont">
-    <div class="formLogin sign-in">
-      <h2>Can't find what you are looking for?</h2>
-      <label>
-        <span>First Name</span>
-        <input class="inputName" type="name" />
-      </label>
-      <label>
-        <span>Last Name</span>
-        <input class="inputLastname" type="lastname" />
-      </label>
-      <label>
-        <span>E-mail here</span>
-        <input class="inputMail" type="email" />
-      </label>
-      <label>
-        <span>Message</span>
-        <input class="inputMessage" type="message" />
-      </label>
-
-
-      <p class="agremeent">
-      <h6>I understand and agree to Humanext's Privacy Notice and Terms of Use</h6>
-      </p>
-      <button2 type="button" class="submit">Submit</button2>
-
-    </div>
-    <div class="sub-cont">
-      <div class="imgLogin">
-        <div class="img__text m--up">
-
-          <h5>If you still can't find what you're looking for in our support resources, contact customer support
-            directly.<h3>
-        </div>
-
-
-      </div>
-      <div class="formLogin sign-up">
-        <h2>Create your Account</h2>
-        <div class="social-container">
-          <a href="#" class="social"><em class="fab fa-facebook"></em></a>
-          <a href="#" class="social"><em class="fab fa-google-plus-g"></em></a>
-          <a href="#" class="social"><em class="fab fa-linkedin-in"></em></a>
-        </div>
-        <label>
-          <span>Name</span>
-          <input class="inputLogin" type="text" />
-        </label>
-        <label>
-          <span>Email</span>
-          <input class="inputLogin" type="email" />
-        </label>
-        <label>
-          <span>Password</span>
-          <input class="inputLogin" type="password" />
-        </label>
-        <button2 type="button" class="submit">Sign Up</button2>
-
-      </div>
-    </div>
+      <label for="lname">E-Mail</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+  
+      <label for="country">Subject</label>
+      <select id="country" name="country">
+        <option value="australia">Orders</option>
+        <option value="australia">Returns</option>
+        <option value="canada">Account Transactions</option>
+        <option value="usa">Suggestions</option>
+        <option value="usa">Other</option>
+      </select>
+  
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
   </div>
 
-  <script>
-    document.querySelector('.img__btn').addEventListener('click', function () {
-      document.querySelector('.cont').classList.toggle('s--signup');
-    });
-  </script>
+
   <footer class="bg-dark text-white">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
