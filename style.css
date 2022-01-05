@@ -556,22 +556,24 @@ p {
 }
 
 .btn-grad:hover {
-  background-position: right center; 
+  background-position: right center;
   color: #fff;
   text-decoration: none;
 }
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
   margin-bottom: 16px;
-  resize: vertical 
+  resize: vertical;
 }
 
-input[type=submit] {
+input[type="submit"] {
   background-color: rgb(236, 79, 58);
   color: white;
   padding: 12px 20px;
@@ -580,7 +582,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type="submit"]:hover {
   background-color: rgb(236, 79, 58);
 }
 body {
@@ -592,20 +594,15 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
-
-.column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 8px;
+  margin: 2em 2em;
+  padding: 2em 2em;
 }
 
 .about-section {
@@ -615,15 +612,6 @@ html {
   color: white;
 }
 
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 .center {
   display: block;
   margin-left: auto;
@@ -649,11 +637,4 @@ html {
 
 .button:hover {
   background-color: #555;
-}
-
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
 }
