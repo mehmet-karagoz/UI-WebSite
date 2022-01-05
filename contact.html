@@ -78,16 +78,16 @@
     <form action="">
 
       <label for="fname">First Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      <input required type="text" id="fname" name="firstname" placeholder="Your name...">
 
       <label for="lname">Last Name</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your last name...">
+      <input required type="text" id="lname" name="lastname" placeholder="Your last name...">
 
       <label for="lname">E-Mail</label>
-      <input type="text" id="lname" name="lastname" placeholder="Your e-mail...">
+      <input required type="text" id="lname" name="lastname" placeholder="Your e-mail...">
 
       <label for="country">Subject</label>
-      <select id="country" name="country">
+      <select required id="country" name="country">
         <option value="australia">Orders</option>
         <option value="australia">Returns</option>
         <option value="canada">Account Transactions</option>
@@ -96,7 +96,7 @@
       </select>
 
       <label for="subject">Message</label>
-      <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+      <textarea required id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
 
       <input type="submit" value="Submit" class="center">
 
@@ -116,7 +116,7 @@
           <p><span class="fas fa-envelope"></span> humanext@gmail.com</p>
         </div>
         <div class="col-md-4 text-center">
-          <p><img src="img/Logo2.png" alt="" width="200"></p>
+          <p><a href="index.html"><img src="img/Logo2.png" alt="" width="200"></a></p>
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Facebook -->
